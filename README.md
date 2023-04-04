@@ -1,4 +1,4 @@
-# Weblex site
+# Welbex site
 
 [![welbex](https://github.com/Go5710264/welbex/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/Go5710264/welbex/actions/workflows/github-actions-demo.yml)
 
