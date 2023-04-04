@@ -4,24 +4,23 @@
 
 body {
     background-color: #1E1E1E;
-}
-
-body, ul{
     margin: 0;
+    height: 100%;
 }
 
-/* .purple_ball{
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 868px;
-    top: -2px;
-    background-color:aliceblue
-} */
+ul{
+    margin: 0;
+    padding: 0;
+}
 
-header{
+li{
+    list-style-type: none;
+}
+
+.header_site{
     padding: 46px 150px 90px;
     max-width: 1140px;
+    margin:auto;
 }
 
 .header_wrapper {
@@ -50,8 +49,6 @@ header{
 
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
-    /* font-style: normal;
-    font-weight: 300; */
     line-height: 12px;
     color: #E4E5EA;
 }
@@ -111,6 +108,7 @@ main{
 
     padding: 0 150px;
     max-width: 1140px;
+    margin:auto;
 }
 
 .slogan{
@@ -118,10 +116,12 @@ main{
 
     width: 362px;
     height: 116px;
+    margin: 0;
 
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     line-height: 58px;
+    font-weight: 400;
     color:#E4E5EA;
 }
 
@@ -164,6 +164,7 @@ main{
 .promotion{
     height: 44px;
     margin-right: 0;
+    margin-bottom: 0;
 
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -201,6 +202,8 @@ main{
 }
 
 .present_title{
+    margin: 0;
+
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -218,12 +221,83 @@ main{
 }
 
 .button{
+    display: flex;
+    justify-content: center;
+
     width: 262px;
     height: 61px;
     float: right;
     margin-top: 61px;
 
     background-color: #4077F3;
+}
 
-    text-align: center;
+.btn_name{
+    margin: auto;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1140px;
+    margin:auto;
+
+}
+
+.footter_section_menu{
+    display: flex;
+}
+
+.title_footer{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.footer_item{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    
+    color: #E4E5EA;
+}
+
+.contacts{
+    text-align: right;
+}
+
+address{
+    max-width: 1140px;
+    margin:auto;
+    text-align: right;
+    margin-top: 33px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #E4E5EA;
+}
+
+.copuright{
+    margin: 0;
+}
+
+.copuright:last-child{
+    text-decoration: underline;
+    margin-top: 5px;
 }

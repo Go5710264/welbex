@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Welbex</title>
 </head>
 <body>
-    <header>
+    <header class="header_site">
         <div class="header_wrapper">
             <div class="comp_preview">
                 <div class="comp_logo">
@@ -37,49 +37,95 @@
         </div>
     </header>
     <main>
-        <div class="slogan_wrapper">
-            <span class="slogan">Зарабатывайте больше</span>
+        <section class="slogan_wrapper">
+            <h1 class="slogan">Зарабатывайте больше</h1>
             <span class="slogan_welbex">с WELBEX</span>
             <div class="slogan_note">Развиваем и контролируем продажи за Вас</div>
-        </div>
-        <div class="info_company">
+        </section>
+        
+        <section class="info_company">
 
-            <div class="promotion">
-                Вместе с <b class="attention">бесплатной</b><br><b class="attention">консультацией</b> мы дарим:
-            </div>
+            <header>
+                <h2 class="promotion">Вместе с <b class="attention">бесплатной</b><br><b class="attention">консультацией</b> мы дарим:</h2>
+            </header>
 
             <div class="present">
                 <div class="column_present">
-                    <div class="present_item">
-                        <div class="present_title">Виджеты</div>
+                    <section class="present_item">
+                        <h3 class="present_title">Виджеты</h3>
                         30 готовых решений
-                    </div>
-                    <div class="present_item">
-                        <div class="present_title">Skype Аудит</div>
+                    </section>
+                    <section class="present_item">
+                        <h3 class="present_title">Skype Аудит</h3>
                         отдела продаж и CRM системы
-                    </div>
+                    </section>
                 </div>
 
                 <div class="column_present">
 
-                    <div class="present_item">
-                        <div class="present_title">Dashboard</div>
+                    <section class="present_item">
+                        <h3 class="present_title">Dashboard</h3>
                         с показателями вашего бизнеса
-                    </div> 
-                    <div class="present_item">
-                        <div class="present_title">35 дней</div>
+                    </section> 
+                    <section class="present_item">
+                        <h3 class="present_title">35 дней</h3>
                         использования CRM
-                    </div>                   
+                    </section>                   
                 </div>
             </div>
 
             <div class="button">
-                Получить консультацию
+                <span class="btn_name">Получить консультацию</span>
             </div>
-        </div>
+        </section>
     </main>
-    <footer>
 
+    <footer>
+        <section>
+            <h3 class="title_footer">О компании</h3>
+            <ul>
+                <li class="footer_item">Партнёрская программа</li>
+                <li class="footer_item">Вакансии</li>
+            </ul>
+        </section>
+        <section>
+            <h3 class="title_footer">Меню</h3>
+            <div class="footter_section_menu">
+                <ul>
+                    <li class="footer_item">Расчёт стоимости</li>
+                    <li class="footer_item">Услуги</li>
+                    <li class="footer_item">Виджеты</li>
+                    <li class="footer_item">Интеграции</li>
+                    <li class="footer_item">Наши клиенты</li>
+                </ul>
+                <ul>
+                    <li class="footer_item">Кейсы</li>
+                    <li class="footer_item">Благодарственные письма</li>
+                    <li class="footer_item">Сертификаты</li>
+                    <li class="footer_item">Блог на Youtube</li>
+                    <li class="footer_item">Вопрос / Ответ</li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacts">
+            <h3 class="title_footer">Контакты</h3>
+            <ul>
+                <li class="phone">+7 555 555-55-55</li>
+                <li>
+                    <ul>
+                        <!-- сменить класс -->
+                        <li class="mess_menu_item"><img src="./picture/telegram_icon.svg" alt="Telegram"></li>
+                        <li class="mess_menu_item"><img src="./picture/viber_icon.svg" alt="Viber"></li>
+                        <li class="mess_menu_item"><img src="./picture/whatsapp_icon.svg" alt="WhatsApp"></li>
+                    </ul>
+                </li>
+                <li class="footer_item">Москва, Путевой проезд 3с1, к 902</li>
+            </ul>
+        </section>
     </footer>
+    <address>
+        <p class="copuright">©WELBEX 2022. Все права защищены.</p>
+        <p class="copuright">Политика конфиденциальности</p>
+    </address>
 </body>
 </html>
